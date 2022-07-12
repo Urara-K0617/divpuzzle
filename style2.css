@@ -40,7 +40,7 @@ body{
 }
 
 .orange{
-  float: right;
+  float: left;
   width: 100px;
   height: 150px;
   background: #ff9e6b;
