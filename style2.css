@@ -48,7 +48,6 @@ body{
 
 .brown{
   height: 100px;
-  width: 250px;
   background: #8c2727;
 }
 
@@ -61,6 +60,4 @@ body{
 	content: "";
 	display: block;
 	clear: both;
-	height: 0;
-	visibility: hidden;
 }
