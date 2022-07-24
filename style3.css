@@ -7,6 +7,7 @@ body{
   width: 400px;
   margin: 0 auto;
 }
+
 .redheader{
   position: relative;
   height: 100px;
@@ -18,33 +19,19 @@ body{
   position: absolute;
   top: 20px;
   right: 20px;
+  background: #ffffff;
 }
 
-.purplebox1{
+.purplebox{
   float: left;
   width: 40px;
   height: 40px;
-  border: 10px solid;
-  border-color: #ffffff;
+  margin: 10px 0px 10px 10px;
   background: #a9004b;
 }
 
-.purplebox2{
-  float: left;
-  width: 40px;
-  height: 40px;
-  border: 10px solid;
-  border-color: #ffffff;
-  background: #a9004b;
-}
-
-.purplebox3{
-  float: left;
-  width: 40px;
-  height: 40px;
-  border: 10px solid;
-  border-color: #ffffff;
-  background: #a9004b;
+.purplebox:last-child{
+  margin-right: 10px;
 }
 
 .left{
@@ -68,31 +55,13 @@ body{
   top: 35px;
 }
 
-.orangebox1{
+.orangebox{
   width: 140px;
   height: 40px;
   margin: 5px;
   border: 5px solid;
   border-color: #ffffff;
   background: #ff863f;
-}
-
-.orangebox2{
-  width: 140px;
-  height: 40px;
-  margin: 5px;
-  border: 5px solid;
-  border-color: #ffffff;
-  background: #ff863f
-}
-
-.orangebox3{
-  width: 140px;
-  height: 40px;
-  margin: 5px;
-  border: 5px solid;
-  border-color: #ffffff;
-  background: #ff863f
 }
 
 .yellowfooter{
