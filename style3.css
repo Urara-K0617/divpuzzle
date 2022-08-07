@@ -19,6 +19,7 @@ body{
   position: absolute;
   top: 20px;
   right: 20px;
+  padding: 10px;
   background: #ffffff;
 }
 
@@ -26,12 +27,12 @@ body{
   float: left;
   width: 40px;
   height: 40px;
-  margin: 10px 0px 10px 10px;
+  margin-right: 10px;
   background: #a9004b;
 }
 
 .purplebox:last-child{
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .left{
@@ -51,23 +52,28 @@ body{
 
 .kakomi2{
   position: absolute;
-  left: 35px;
-  top: 35px;
+  left: 40px;
+  top: 40px;
 }
 
 .orangebox{
   width: 140px;
   height: 40px;
-  margin: 5px;
   border: 5px solid;
+  margin: 0px 0px 10px 0px;
   border-color: #ffffff;
   background: #ff863f;
+}
+
+.orangebox:last-child{
+  margin:0px
 }
 
 .yellowfooter{
   height: 100px;
   background: #ffd000;
 }
+
 .clearfix::after{
 	content: "";
 	display: block;
